@@ -70,7 +70,7 @@ Commands:
 
 ### Usage
 
-To run the project, execute the following command:
+To use this project run the command ```ruby decoder.rb``` on the terminal.
 
 ### Run tests
 run command ```rubocop --auto-correct```
