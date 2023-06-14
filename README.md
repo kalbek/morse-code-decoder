@@ -100,9 +100,9 @@ You can deploy this project using gh-pages
 
 👤 **Esther Udondian**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@githubhandle](https://github.com/eudondian)
+- Twitter: [@twitterhandle](https://twitter.com/eudondian)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/esther-udondian)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
