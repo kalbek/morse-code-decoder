@@ -70,15 +70,15 @@ decoded_morse_word = decode_morse_word(morse_word)
 puts decoded_morse_word
 # method to decode morse sentense
 def decode_morse_sentence(morse_sentence)
-    decoded_sentence = ''
-    words = morse_sentence.split
-    
-    words.each do |word|
-        decoded_word = decode_morse_word(word)
-        decoded_sentence += "#{decoded_word} "
-    end
-    
-    decoded_sentence.strip
+  decoded_sentence = ''
+  words = morse_sentence.split
+
+  words.each do |word|
+    decoded_word = decode_morse_word(word)
+    decoded_sentence += "#{decoded_word} "
+  end
+
+  decoded_sentence.strip
 end
 
 # checking sentence decoding
