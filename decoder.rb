@@ -75,7 +75,7 @@ def decode_morse_sentence(morse_sentence)
     
     words.each do |word|
         decoded_word = decode_morse_word(word)
-        decoded_sentence += decoded_word + ' '
+        decoded_sentence += "#{decoded_word} "
     end
     
     decoded_sentence.strip
