@@ -54,15 +54,15 @@ decoded_morse_char = decode_morse_char(morse_char)
 puts decoded_morse_char
 # method to decode morse word
 def decode_morse_word(morse_word)
-    decoded_word = ''
+  decoded_word = ''
   letters = morse_word.split
-  
+
   letters.each do |letter|
     decoded_letter = decode_morse_char(letter)
     decoded_word += decoded_letter
-end
+  end
 
-decoded_word
+  decoded_word
 end
 # checking word decoding
 morse_word = '.... . .-.. .-.. ---'
