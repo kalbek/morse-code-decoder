@@ -44,9 +44,27 @@ MORSE_CODE = {
   '.----.' => "'",
   '-....-' => '-'
 }.freeze
+# method to decode morse character
 def decode_morse_char(morse_char)
   MORSE_CODE[morse_char] || ''
 end
+# checking character decoding
 morse_char = '....'
 decoded_morse_char = decode_morse_char(morse_char)
 puts decoded_morse_char
+# method to decode morse word
+def decode_morse_word(morse_word)
+    decoded_word = ''
+    letters = morse_word.split(' ')
+    
+    letters.each do |letter|
+        decoded_letter = decode_morse_char(letter)
+        decoded_word += decoded_letter
+    end
+
+    decoded_word
+end
+# checking word decoding
+morse_word = '.... . .-.. .-.. ---'
+decoded_morse_word = decode_morse_word(morse_word)
+puts decoded_morse_word
