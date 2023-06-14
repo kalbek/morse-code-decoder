@@ -11,7 +11,6 @@ This repository contains ruby files with ruby code.
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -23,8 +22,6 @@ This repository contains ruby files with ruby code.
 - [📝 License](#license)
 
 # 📖 Morse Code Decoder <a name="about-project"></a>
-
-> Microverse database project.
 
 **Morse code decoder** is a ruby project which decodes a character, a word and a sentence encoded in morse code back to plain english.
 
@@ -71,18 +68,12 @@ Commands:
 - git clone https://github.com/kalbek/morse-code-decoder.git
 - run ```ruby decoder.rb```
 
-
-### Install
-<!-- Install this project with: -->
-N/A
-
 ### Usage
 
 To run the project, execute the following command:
 
 ### Run tests
-<!-- To run tests, run the following command: -->
-N/A
+run command ```rubocop --auto-correct```
 
 ### Deployment
 
@@ -100,9 +91,9 @@ You can deploy this project using gh-pages
 
 👤 **Esther Udondian**
 
-- GitHub: [@githubhandle](https://github.com/eudondian)
-- Twitter: [@twitterhandle](https://twitter.com/eudondian)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/esther-udondian)
+- GitHub: [@githubhandle]()
+- Twitter: [@twitterhandle]()
+- LinkedIn: [LinkedIn]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,6 +135,6 @@ I would like to thank Microverse for guiding me on the development of this proje
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE.MD) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
