@@ -1,3 +1,3 @@
-class MyList 
-    @list = []
+class MyList
+  @list = []
 end
