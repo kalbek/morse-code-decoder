@@ -54,7 +54,15 @@ To get a local copy up and running, follow these steps.
 - git clone https://github.com/kalbek/morse-code-decoder.git
 - install ruby on your machine
 - run ```ruby decoder.rb```
-
+- to test my_list.rb file:
+- run ```irb``` to enter interactive ruby mode
+- run ```require_relative 'my_list'``` to ```import my_list.rb```
+- run ```irb> list = MyList.new(1, 2, 3, 4)``` to create list
+- run ```list.all? {|e| e < 5}``` to test #all? should return true
+- run ```list.all? {|e| e > 5}``` to test #all? should return false
+- run ```list.any? {|e| e === 2}``` to test #any? should return true
+- run ```list.any? {|e| e === 5}``` to test #any? should return false
+- run ```list.filter {|e| e.even?}``` to test #filter should return [2, 4]
 ### Prerequisites
 
 In order to run this project you need to install ruby on your machine
