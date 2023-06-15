@@ -12,6 +12,6 @@ module MyEnumerable
   def filter()
     result = []
     each { |element| result << element if yield(element) }
-    result
+    "#{result}"
   end
 end
